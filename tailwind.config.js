@@ -9,7 +9,8 @@ export default {
       colors : {
         bg: "#1f1f1f",
         white: "#FFFFFF",
-        red: "#ff004f"
+        red: "#ff004f",
+        accent: "#839392"
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

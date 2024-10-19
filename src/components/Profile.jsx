@@ -23,7 +23,7 @@ const Links = [
     {
         id: 4,
         icon: <FaWhatsapp />,
-        href: "https://github.com/Faruqoloyede"
+        href: "https://api.whatsapp.com/send?phone=2348083043094"
     },
 ]
 const Profile = () => {

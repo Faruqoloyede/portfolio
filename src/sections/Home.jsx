@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <section className='relative pt-24'>
         <Element name='home'>
-            <div className='max-w-[1440px] mx-auto flex items-center gap-10 lg:px-4 md:px-8 px-4'>
+            <div className='max-w-[1420px] mx-auto flex items-center gap-10 lg:px-4 md:px-8 px-4'>
                 <Profile />
                 <Main />
                 <Menues />

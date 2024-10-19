@@ -9,3 +9,18 @@
 body {
   @apply bg-bg;
 }
+
+
+.current-color {
+  color: white;
+  cursor: pointer;
+}
+
+.current-color:hover {
+  @apply text-red
+}
+
+.icon:hover .current-color {
+    color: #ff004f;
+    transition: 0.3s;
+}
