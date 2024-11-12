@@ -29,7 +29,7 @@ const Links = [
 const Profile = () => {
   return (
     <div className='w-[380px] lg:block hidden'>
-        <div className='lg:w-[380px] border-2 border-[#575756] px-6 py-10 fixed top-20 z-10 rounded-3xl'>
+        <div className='lg:w-[380px] border-2 border-[#575756] px-6 py-10 sticky top-16 rounded-3xl'>
         <div className='flex items-center justify-between mb-6 gap-2'>
             <h2 className='text-white text-4xl font-bold font-poppins'>Faruq</h2>
             <h2 className='text-white text-xl leading-[20px] text-right'>Frontend Developer</h2>

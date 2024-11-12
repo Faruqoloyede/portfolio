@@ -24,3 +24,7 @@ body {
     color: #ff004f;
     transition: 0.3s;
 }
+
+.nav {
+  position: sticky;
+}

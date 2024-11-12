@@ -1,8 +1,5 @@
 import React from 'react'
 import { Link as LinkScroll } from 'react-scroll'
-import { CiHome } from "react-icons/ci";
-import { FaUserCircle } from "react-icons/fa";
-import { TbMenu } from "react-icons/tb";
 import Lottie from 'lottie-web';
 import { defineElement } from 'lord-icon-element';
 
@@ -24,7 +21,7 @@ const Menues = () => {
                         style={{width: "25px", height: "25px"}}>
                     </lord-icon>
                 </LinkScroll>
-                <LinkScroll to='home' offset={-100} spy smooth>
+                <LinkScroll to='about' offset={-100} spy smooth>
                 <lord-icon src="https://cdn.lordicon.com/bhfjfgqz.json" trigger="hover" class="current-color" style={{width: "25px", height: "25px"}}></lord-icon>
                 </LinkScroll>
                 <LinkScroll to='home' offset={-100} spy smooth>
