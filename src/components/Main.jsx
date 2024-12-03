@@ -1,6 +1,7 @@
 import React from 'react'
 import { CiHome } from "react-icons/ci";
 import {Link as LinkScroll} from 'react-scroll'
+import profile from "../assets/profile.png"
 
 const Main = () => {
   return (
@@ -12,7 +13,10 @@ const Main = () => {
                 introduction
             </div>
         </div>
+        <div className="flex flex-col items-center">
         <h1 className='lg:text-[68px] lg:leading-[75px] md:text-[50px] md:leading-[60px] text-[28px] leading-[40px] text-white font-sora font-light'>Hi, from <span className='text-red'>faruq</span>, Frontend Developer</h1>
+        <img src={profile} alt="" className='lg:hidden sm:block' />
+        </div>
         <div className='flex items-center justify-between mt-40'>
           <div className='flex items-center gap-12'>
           <div className='flex flex-col items-center'>
