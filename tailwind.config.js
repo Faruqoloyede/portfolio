@@ -8,6 +8,7 @@ export default {
     extend: {
       colors : {
         bg: "#1f1f1f",
+        base: "rgb(31 31 31)",
         white: "#FFFFFF",
         red: "#ff004f",
         accent: "#839392"

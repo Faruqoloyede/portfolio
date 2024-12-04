@@ -17,7 +17,7 @@ const Main = () => {
         <h1 className='lg:text-[68px] lg:leading-[75px] md:text-[50px] md:leading-[60px] text-[28px] leading-[40px] text-white font-sora font-light'>Hi, from <span className='text-red'>faruq</span>, Frontend Developer</h1>
         <img src={profile} alt="" className='lg:hidden sm:block' />
         </div>
-        <div className='flex items-center justify-between mt-40'>
+        <div className='flex max-md:flex-row max-sm:flex-col items-center justify-between max-sm:justify-center mt-40 max-sm:mt-16  '>
           <div className='flex items-center gap-12'>
           <div className='flex flex-col items-center'>
             <span className='text-red lg:text-[70px] md:text-[60px] text-[50px] leading-[100px] font-sora font-medium'>2+</span>
