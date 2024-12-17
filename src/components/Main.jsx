@@ -1,11 +1,12 @@
 import React from 'react'
 import { CiHome } from "react-icons/ci";
-import {Link as LinkScroll} from 'react-scroll'
+import {Element, Link as LinkScroll} from 'react-scroll'
 import profile from "../assets/profile.png"
 
 const Main = () => {
   return (
-    <section className='lg:max-w-[1000px] lg:px-10 md:px-10 p-0'>
+    <Element name='home'>
+      <section className='lg:max-w-[1000px] lg:px-10 md:px-10 p-0'>
         <div className='mb-32'>
         <div className='flex lg:pt-16 md:pt-16 pt-6 mb-16'>
             <div className='border-[1px] border-[#cecec8] py-2 lg:px-5 px-4 lg:text-sm md:text-sm text-xs flex items-center gap-2 rounded-full text-white font-poppins'>
@@ -35,6 +36,7 @@ const Main = () => {
         </div>
         </div>
     </section>
+    </Element>
   )
 }
 
