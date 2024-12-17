@@ -2,6 +2,7 @@ import React from 'react'
 import { Element} from 'react-scroll'
 import Main from '../components/Main';
 import About from './About';
+import Services from './Services';
 
 
 const Home = () => {
@@ -10,7 +11,9 @@ const Home = () => {
         <Element name='home'>
           <Main />
           <About />
+          <Services />
         </Element>
+        
     </section>
   )
 }

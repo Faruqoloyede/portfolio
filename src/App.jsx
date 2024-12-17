@@ -5,7 +5,7 @@ import Menues from './components/Menues'
 import { Link as LinkScroll } from 'react-scroll'
 const App = () => {
   return (
-    <main className='max-w-[1440px] mx-auto gap-10 flex lg:px-12 md:px-8 px-4'>
+    <main className='max-w-[1440px] mx-auto flex lg:px-12 md:px-8 px-4'>
       <Profile />
       <Home />
       <Menues />

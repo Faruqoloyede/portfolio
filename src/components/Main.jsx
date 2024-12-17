@@ -5,7 +5,7 @@ import profile from "../assets/profile.png"
 
 const Main = () => {
   return (
-    <section className='lg:max-w-[1000px]'>
+    <section className='lg:max-w-[1000px] lg:px-10 md:px-10 p-0'>
         <div className='mb-32'>
         <div className='flex lg:pt-16 md:pt-16 pt-6 mb-16'>
             <div className='border-[1px] border-[#cecec8] py-2 lg:px-5 px-4 lg:text-sm md:text-sm text-xs flex items-center gap-2 rounded-full text-white font-poppins'>
@@ -28,7 +28,7 @@ const Main = () => {
             <p className='text-accent font-poppins uppercase text-sm -mt-2'>project completed</p>
           </div>
           </div>
-            <LinkScroll to='projects' spy smooth className='flex items-center text-2xl  cursor-pointer icon mt-10 text-white hover:text-red'>
+            <LinkScroll to='projects' spy smooth className='flex items-center text-2xl gap-3  cursor-pointer icon mt-10 text-white hover:text-red'>
               my projects
             <lord-icon target="div" src="https://cdn.lordicon.com/rxufjlal.json" trigger="hover" class="current-color" style={{width: "25px", height: "25px"}}></lord-icon>
             </LinkScroll>

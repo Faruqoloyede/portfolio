@@ -3,7 +3,7 @@ import { Element } from 'react-scroll'
 
 const About = () => {
   return (
-    <section className='relative mb-32'>
+    <section className='relative mb-5 lg:px-10 md:px-10 p-0'>
         <Element name='about'>
             <div className='flex lg:pt-16 md:pt-16 pt-6 mb-16'>
             <div className='border-[1px] border-[#cecec8] py-2 lg:px-5 px-4 lg:text-sm md:text-sm text-xs flex items-center gap-2 rounded-full text-white font-poppins'>
