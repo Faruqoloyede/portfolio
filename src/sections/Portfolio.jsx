@@ -34,7 +34,7 @@ const Portfolio = () => {
                     <div className='p-4'>
                      <h4 className='text-white font-sora font-bold lg:text-2xl md:text-2xl text-xl mb-5'>{project.title}</h4>
                      <div className="flex items-center justify-between">
-                         <a href={project.liveSiteUrl} className='bg-[#3B82F6] px-4 py-2 text-white rounded-full flex items-center gap-2'><LuExternalLink />Live site</a>
+                         <a href={project.liveSiteUrl} target='_blank' className='bg-[#3B82F6] px-4 py-2 text-white rounded-full flex items-center gap-2'><LuExternalLink />Live site</a>
                          <div className='flex items-center gap-3'>
                              <img src={react} alt="" />
                              <img src={tailwind} alt="" className='w-[20px]' />
