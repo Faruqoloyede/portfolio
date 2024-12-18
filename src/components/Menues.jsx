@@ -24,7 +24,7 @@ const Menues = () => {
                 <LinkScroll to='about' offset={-100} spy smooth>
                 <lord-icon src="https://cdn.lordicon.com/bhfjfgqz.json" trigger="hover" class="current-color" style={{width: "25px", height: "25px"}}></lord-icon>
                 </LinkScroll>
-                <LinkScroll to='home' offset={-100} spy smooth>
+                <LinkScroll to='services' offset={-100} spy smooth>
                 <lord-icon src="https://cdn.lordicon.com/ofwpzftr.json" trigger="hover" class="current-color" style={{width: "25px", height: "25px"}}></lord-icon>
                 </LinkScroll>
                 <LinkScroll to='home' offset={-100} spy smooth>
