@@ -12,7 +12,7 @@ const Section = () => {
                 Services
             </div>
             </div>
-            <h1 className='lg:text-[68px] lg:leading-[75px] md:text-[50px] md:leading-[60px] text-[28px] leading-[40px] text-white font-sora font-light'>My <span className='text-red'>Services</span></h1>
+            <h1 className='lg:text-5xl text-white md:text-4xl text-3xl lg:leading-[60px] md:leading-[45px] leading-[36px] mt-12 mb-10 max-w-[670px] font-light'>My <span className='text-red'>Services</span></h1>
             <div className='flex flex-col items-center gap-10 mt-10'>
                 {service.map(({icon, title, content, index})=>(
               <div key={index} className="flex flex-col items-start p-6 border-[1px] border-[#cecec8] hover:border-red hover:text-red rounded-2xl">
