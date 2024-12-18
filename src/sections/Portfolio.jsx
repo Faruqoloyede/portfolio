@@ -19,11 +19,11 @@ const Portfolio = () => {
     },[])
   return (
     <section className='relative lg:px-10 md:px-10 p-0'>
-        <Element name="projects">
+        <Element name="project">
         <div className='flex lg:pt-16 md:pt-16 pt-6 mb-12'>
         <div class="border-[1px] border-accent py-2 lg:px-5 px-4 lg:text-sm md:text-sm text-xs text-white flex items-center gap-2 rounded-full"><lord-icon target="div" src="https://cdn.lordicon.com/fpmskzsv.json" trigger="hover" colors="primary:#fff" style={{width: "25px", height: "25px"}}></lord-icon>Projects</div>
             </div>
-            <h1 className='lg:text-[60px] lg:leading-[75px] md:text-[50px] md:leading-[60px] text-[28px] leading-[40px] text-white font-sora font-light'>My <span className='text-red'>Projects</span></h1>
+            <h1 className='lg:text-5xl md:text-4xl text-white text-3xl lg:leading-[60px] md:leading-[45px] leading-[36px] mt-12 mb-10 max-w-[670px] font-light'>My <span className='text-red'>Projects</span></h1>
             <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 mb-10 gap-5 mt-10'>
                 
                {work.map((project)=>(
@@ -40,8 +40,7 @@ const Portfolio = () => {
                              <img src={tailwind} alt="" className='w-[20px]' />
                          </div>
                     </div>
-                     </div>
-                    
+                    </div>
                  </div>
                ))}
             </div>
