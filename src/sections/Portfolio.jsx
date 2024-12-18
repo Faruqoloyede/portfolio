@@ -27,7 +27,7 @@ const Portfolio = () => {
             <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 mb-10 gap-5 mt-10'>
                 
                {work.map((project)=>(
-                     <div className='rounded-lg shadow-lg relative border-[1px] border-accent w-full'>
+                     <div key={project._id} className='rounded-lg shadow-lg relative border-[1px] border-accent w-full'>
                      <div className=''>
                      <img src={UrlFor(project.image).url()} alt="pr1" className='rounded-lg w-full' />
                      </div>
