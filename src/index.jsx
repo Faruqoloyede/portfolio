@@ -4,16 +4,19 @@ import { TbWorldWww } from "react-icons/tb";
 
 export const service = [
     {
+        id:1,
         icon: <TbWorldWww />,
         title: "Web Development",
         content: "I create visually appealing and functional websites using modern frontend technologies, such as React js and Nextjs, ensuring seamless user experiences and dynamic interactivity."
     },
     {
+        id:2,
         icon: <PiDevices />,
         title: "Responsive Design",
         content: "I design and develop websites that adapt perfectly to all screen sizes and devices, offering consistent performance and accessibility."
     },
     {
+        id:3,
         icon: <GrVmMaintenance />,
         title: "Website Maintenance",
         content: "I provide ongoing updates, performance optimization, and bug fixes to ensure your website remains secure, fast, and up-to-date."

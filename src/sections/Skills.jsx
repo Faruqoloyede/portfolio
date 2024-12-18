@@ -48,7 +48,7 @@ const Skills = () => {
                 </h4>
                 <div className='flex flex-wrap items-center gap-10 my-10'>
                     {skillFrontend.map((item)=>(
-                        <div className="flex flex-col items-center hover:border-red">
+                        <div key={item._id} className="flex flex-col items-center hover:border-red">
                         <div className='w-24 h-36 border-[1px] border-accent rounded-3xl flex items-center justify-center'>
                             <img src={UrlFor(item.icon).url()} className='w-14 h-14' alt="" />
                         </div>
@@ -62,7 +62,7 @@ const Skills = () => {
                 </h4>
                 <div className='flex flex-wrap items-center gap-10 my-10'>
                     {skillBackend.map((item)=>(
-                        <div className="flex flex-col items-center hover:border-red">
+                        <div key={item._id} className="flex flex-col items-center hover:border-red">
                         <div className='w-24 h-36 border-[1px] border-accent rounded-3xl flex items-center justify-center'>
                             <img src={UrlFor(item.icon).url()} className='w-14 h-14' alt="" />
                         </div>
@@ -76,7 +76,7 @@ const Skills = () => {
                 </h4>
                 <div className='flex flex-wrap items-center gap-10 my-10'>
                     {tool.map((item)=>(
-                        <div className="flex flex-col items-center hover:border-red">
+                        <div key={item._id} className="flex flex-col items-center hover:border-red">
                         <div className='w-24 h-36 border-[1px] border-accent rounded-3xl flex items-center justify-center'>
                             <img src={UrlFor(item.icon).url()} className='w-14 h-14' alt="" />
                         </div>
