@@ -35,7 +35,7 @@ const Main = () => {
             <p className='text-accent font-poppins uppercase text-sm -mt-2'>project completed</p>
           </div>
           </div>
-            <LinkScroll to='projects' spy smooth className='flex items-center text-2xl gap-3  cursor-pointer icon mt-10 text-white hover:text-red'>
+            <LinkScroll to='project' spy smooth className='flex items-center text-2xl gap-3  cursor-pointer icon mt-10 text-white hover:text-red'>
               my projects
             <lord-icon target="div" src="https://cdn.lordicon.com/rxufjlal.json" trigger="hover" class="current-color" style={{width: "25px", height: "25px"}}></lord-icon>
             </LinkScroll>
