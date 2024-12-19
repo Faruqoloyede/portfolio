@@ -39,7 +39,7 @@ const App = () => {
             <lord-icon src="https://cdn.lordicon.com/osuxyevn.json" trigger="hover" class="current-color" style={{ width: "25px", height: "25px" }}></lord-icon>
               <span className='text-white'>Home</span>
             </LinkScroll>
-            <a href='/' className='flex flex-col items-center'>
+            <a href='/cv.pdf' download className='flex flex-col items-center'>
               <lord-icon
                 src="https://cdn.lordicon.com/winbdcbm.json"
                 trigger="hover"
