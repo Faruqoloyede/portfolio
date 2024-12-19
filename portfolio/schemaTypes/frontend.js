@@ -16,5 +16,11 @@ export default {
                 hotspot: true
             }
         },
+        {
+            name: 'order',
+            title: 'Order',
+            type: 'number',
+            description: 'The order in which the service appears',
+          },
     ]
 }
