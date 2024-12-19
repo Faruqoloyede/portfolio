@@ -1,6 +1,6 @@
 import React from 'react'
 import { Element } from 'react-scroll'
-import pr1 from '../assets/pr1.png'
+// import pr1 from '../assets/pr1.png'
 import react from '../assets/react.webp'
 import tailwind from '../assets/tailwind.png'
 import { LuExternalLink } from "react-icons/lu";

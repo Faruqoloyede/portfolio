@@ -18,7 +18,7 @@ const Links = [
     {
         id: 3,
         icon: <FaFacebookF />,
-        href: "https://github.com/Faruqoloyede"
+        href: "https://web.facebook.com/abu.jabbar.50"
     },
     {
         id: 4,
@@ -38,7 +38,7 @@ const Profile = () => {
         <img src={profile} alt="faruq" className='w-64' />
         </div>
         <div className='flex flex-col items-center font-poppins'>
-            <h2 className='text-white text-lg mt-8'>oloyedefaruq2@gmail.com</h2>
+            <h2 className='text-white text-lg mt-8'><a href="mailto:oloyedefaruq2@gmail.com">oloyedefaruq2@gmail.com</a></h2>
             <h2 className='text-white text-lg text-center mt-2 mb-6'>Lagos, Nigeria</h2>
             <div className='flex items-center gap-5 text-white mb-3'>
                 {Links.map(({ id, icon, href })=>(
