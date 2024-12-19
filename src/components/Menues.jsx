@@ -42,7 +42,7 @@ const Menues = () => {
                 <lord-icon src="https://cdn.lordicon.com/diihvcfp.json" trigger="hover" class="current-color" style={{width: "25px", height: "25px"}}></lord-icon>
                  <span className="tooltiptext">contact</span>
                 </LinkScroll>
-                <a href='/' className='tooltip'>
+                <a href='/cv.pdf' download className='tooltip'>
                 <lord-icon src="https://cdn.lordicon.com/winbdcbm.json" trigger="hover" class="current-color" style={{width: "25px", height: "25px"}}></lord-icon>
                  <span className="tooltiptext">resume</span>
                 </a>
