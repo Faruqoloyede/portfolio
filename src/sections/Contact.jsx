@@ -7,9 +7,18 @@ import 'aos/dist/aos.css';
 const Contact = () => {
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
+    const [year, setYear] = useState('')
     useEffect(() => {
         AOS.init(); 
       }, []);
+
+  useEffect(()=>{
+    const date = new Date();
+    const currentYear = date.getFullYear();
+    setYear(currentYear)
+  }, [])
+    
+    
 
   return (
     <section className='relative lg:px-10 md:px-10 px-0'>
@@ -35,7 +44,7 @@ const Contact = () => {
                 </div>
                 <input type="submit" value="Send" className='bg-red rounded-3xl text-white font-bold cursor-pointer mt-10 px-6 h-[3rem] w-[16rem]' />
             </form>
-            <p className='text-accent lg:text-[20px] md:text-[18px] text-sm text-center mb-24'>Allrights reserved to ©Faruq Oloyede</p>
+            <p className='text-accent lg:text-[20px] md:text-[18px] text-sm text-center mb-24'>Allrights reserved to ©Faruq Oloyede {year}</p>
         </Element>
     </section>
   )
